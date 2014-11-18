@@ -34,8 +34,16 @@
 		       	</div>
 				<div class="navbar-collapse collapse">
 			    	<ul class="nav navbar-nav navbar-right">
-					    <li><a href="#/underconstruction" class="primary-nav-btn quite" ng-class="{ active: activePath=='/contact' }">Contact</a></li>
-					    <li><a href="#/underconstruction" class="primary-nav-btn quite" ng-class="{ active: activePath=='/underconstruction' }">About</a></li>
+			    		<li>
+							<div class="dropdown">
+								<button class="dropdown-toggle primary-nav-btn quite" type="button" id="dropdownMenu1" 
+									data-toggle="dropdown" aria-expanded="true">Dropdown<span class="caret"></span></button>
+							  	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							    	<li role="presentation"><a role="menuitem" tabindex="-1" href="#/simple-map">Simple Map</a></li>
+							  	</ul>
+							</div>			    		
+			    		</li>
+					    <li><a href="#/underconstruction" class="primary-nav-btn quite" ng-class="{ active: activePath=='/underconstruction' }">Contact</a></li>
 						<li>
 							<form class="navbar-form" role="search">
 								<a href="#/underconstruction" class="primary-nav-btn quite btn-style">Sign In</a>
@@ -48,7 +56,7 @@
 		</div>
 	</header>
 	
-	<!--  <div ng-view></div> -->
+	<div ng-view></div>
 
 	
 </body>

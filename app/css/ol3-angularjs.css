@@ -1,5 +1,6 @@
 @import url('components/general.css');
 @import url('components/header.css');
+@import url('components/map.css');
 
 html, body {
 	font-family: "Lexia Ad", Times, sans-serif;
