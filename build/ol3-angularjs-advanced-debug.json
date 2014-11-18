@@ -1,0 +1,44 @@
+
+{
+  "id": "ol3-angularjs-advanced-debug",
+  "externs": [
+    "./externs/angular-1.3.js",
+    "./externs/angular-1.3-q.js",
+    "./externs/angular-1.3-http-promise.js",
+    "./externs/jquery-1.9.js",
+    "./externs/ol3-externs.js",
+    "./externs/general.js"
+  ],
+  //"output-wrapper": "/*! \n//@ sourceMappingURL=ol3-angularjs-min.map.js\n */\n%output%",
+  "level": "DEFAULT",
+  "mode": "ADVANCED",
+  "checks": {
+    "accessControls": "ERROR",
+    "checkRegExp": "ERROR",
+    "checkTypes": "WARNING",
+    "checkVars": "ERROR",
+    "deprecated": "ERROR",
+    "duplicate": "ERROR",
+    "fileoverviewTags": "ERROR",
+    "invalidCasts": "ERROR",
+    "missingProperties": "WARNING",
+    "nonStandardJsDocs": "ERROR",
+    "undefinedVars": "ERROR"
+  },
+  "inputs": [
+    "./exports.js"
+  ],
+  "paths": [
+    "../app/src"
+  ],
+  "define": {
+    "goog.DEBUG": true
+  },
+  "pretty-print": true,
+  "experimental-compiler-options": {
+    "angularPass": true,
+    "languageIn": "ECMASCRIPT5"
+  },
+
+  "output-file": "../app/ol3-angularjs-min-debug.js"
+}

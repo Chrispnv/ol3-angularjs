@@ -1,0 +1,28 @@
+@import url('components/general.css');
+@import url('components/header.css');
+
+html, body {
+	font-family: "Lexia Ad", Times, sans-serif;
+}
+
+img.portrait{
+	max-width: 140px;
+	height: auto;
+}
+
+.form-group.surname{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.form-group.familyname{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.basemap-switcher{
+	z-index: 1000;
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+}

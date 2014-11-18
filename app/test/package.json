@@ -1,0 +1,20 @@
+{
+  "name": "messnetz-client",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "~0.12.24",
+    "karma-jasmine": "~0.1.5",
+    "karma-closure": "~0.1.0",
+    "jasmine": "~2.0.1",
+    "phantomjs": "~1.9.11",
+    "karma-phantomjs-launcher": "~0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

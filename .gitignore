@@ -1,0 +1,22 @@
+# Local project files (IDE/Configuration/...)
+.project
+.pydevproject
+
+# ignore patterns
+*.pyc
+*.settings
+*.project
+*.classpath
+*.*~
+
+
+/node_modules
+/app/lib
+/app/test/data
+/app/test/html
+/app/test/node_modules
+/app/backup
+/app/messnetz-min.js
+/app/messnetz-min-debug.js
+/app/messnetz-simple.js
+

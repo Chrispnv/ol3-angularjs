@@ -1,0 +1,16 @@
+.fill-green {
+	background: #56b881;
+}
+
+.fill-blue { 
+	background: #3887be; 
+}
+
+.container.content{
+	position: relative;
+	width: 100%;
+}
+
+.underconstruction-container{
+	margin-top: 85px;
+}
